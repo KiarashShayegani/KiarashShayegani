@@ -98,9 +98,3 @@ I'm actively seeking **Data Scientist & Data Analyst opportunities** in Iranian 
 Full-time · Internship · Contract · Remote · Tehran
 
 ---
-
-> ## What's Next..?
-
-> - **v1.x of Iran Car Market Intelligence** — Expanding supported car brands
-> - **v1.x of METI** — public deployment, historical tracking,..
-> - **And probably more..**
