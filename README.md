@@ -6,7 +6,7 @@ that solve tangible problems. Passionate about creating **real-world impact**, n
 
 📍 Tehran, Iran ·  Remote & On-site
 
-[![Open to Work](https://img.shields.io/badge/Open_to-Data_Scientist_%7C_Data_Analyst_%7C_ML_related_roles-00C4B4?style=for-the-badge)](https://www.linkedin.com/in/kiarash-shayegani/)
+[![Open to Work](https://img.shields.io/badge/Open_to-Data_Scientist_%7C_ML_roles-00C4B4?style=for-the-badge)](https://www.linkedin.com/in/kiarash-shayegani/)
 
 ---
 ## Current Engagement
