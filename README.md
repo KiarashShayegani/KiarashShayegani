@@ -91,7 +91,7 @@ through a Gradio application.
 - Gradio price-estimation and market-analysis application
 
 🔗 [Repository](https://github.com/KiarashShayegani/Iran-Car-Market-Intelligence)  
-🤗 [Live Demo](https://huggingface.co/spaces/kiarash2077/pride_car_price_estimator)
+🤗 [Live Demo](https://huggingface.co/spaces/kiarash2077/Iran_Car_Market_Intelligence)
 
 **Stack:** `Python` `Pandas` `scikit-learn` `CatBoost` `XGBoost`
 `SQLite` `Gradio` `GitHub Actions`
