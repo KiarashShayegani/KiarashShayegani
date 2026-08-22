@@ -1,100 +1,230 @@
 # 👋 Hi, I'm Kiarash
 
-***Final-year CS student** building end-to-end machine learning systems that actually ship. 
-I transform raw data—from scraped car ads to real-time market signals—into **deployed applications** 
-that solve tangible problems. Passionate about creating **real-world impact**, not just notebook accuracy.*
+### Machine Learning Engineer · Deep Learning · NLP/LLMs · RAG
 
-📍 Tehran, Iran ·  Remote & On-site
+I'm a final-year Computer Engineering student and Machine Learning Engineer
+based in Tehran, Iran, with 1.5+ years of hands-on experience building
+applied ML/DL systems through remote, project-based work with a robotics
+engineering team.
 
-[![Open to Work](https://img.shields.io/badge/Open_to-Data_Scientist_%7C_ML_roles-00C4B4?style=for-the-badge)](https://www.linkedin.com/in/kiarash-shayegani/)
+I enjoy taking ML projects beyond notebooks — from raw data and
+experimentation to evaluation, testing, deployment, and documentation.
+
+**Current interests:** Machine Learning Engineering · Deep Learning ·
+NLP · LLM Applications · RAG · MLOps
+
+📍 Tehran, Iran · Open to Full-time · Contract · Remote opportunities
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kiarash-shayegani/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kiarash.shayegani.st@gmail.com)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/kiarashshayegani)
 
 ---
-## Current Engagement
 
-**• Applied ML Engineer (Freelance/Project-Based)**  
-**• برنانواندیشان سینا** · *Knowledge-Based Engineering Team @ Shoroue Innovation Center*  
+## 💼 Current Experience
 
-📆 Jan 2025 – Present · Kashan, Iran (Remote)
+**Machine Learning Engineer — Borna Noandishan Sina**
 
-Developing neural network models for autonomous underwater vehicles (UUV) and sensor fusion systems: Real sensor data · Physics-informed ML
+*Remote · Project-Based · Nov 2024 – Present*
 
----
+Working with a robotics engineering team on applied ML/DL projects
+involving real-world robotic sensor data.
 
-## 🎯 My Current Focus
-
-**Build → Deploy → Repeat.**  
-I turn raw data into working products. From scraping Iranian car markets to predicting regional geopolitical tension, I build **end-to-end ML systems that actually ship**—not just notebooks that look pretty.
+- Neural-network-based attitude estimation and sensor fusion
+- Vehicle dynamics modeling
+- BLDC motor performance prediction
+- Model evaluation and deployment-oriented workflows
+- Webots simulation integration
+- Technical documentation and reproducible ML pipelines
 
 ---
 
 ## 🚀 Featured Projects
 
-| Project | Description | Live Demo | Tech Stack | Status |
-|---------|-------------|-----------|-----------|--------|
-| **🚗 Iran Car Market Intelligence** | ML-powered price estimator for Iran's volatile car market. Complete pipeline: web scraping → MySQL → ML training → Gradio deployment. MVP focuses on Pride (580+ ads). | [![Hugging Face](https://img.shields.io/badge/🤗_Live_Demo-FF9D00)](https://huggingface.co/spaces/kiarash2077/pride_car_price_estimator) [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717)](https://github.com/kiarashshayegani/iran-car-market-intelligence) | `Python` `Scikit-learn` `SQL` `Gradio` | **v0.1 Live** • Deployed • Iterating |
-| **🧭 Middle-East Tension Index (METI)** | Real-time dashboard tracking geopolitical risk signals using financial markets. Born from personal experience during the June 2025 Iran-Israel conflict. |  [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717)](https://github.com/kiarashshayegani/Middle-East-Tension-Indicator) | `Streamlit` `yfinance` `Plotly` `Pandas` | **v0.2 Released** • Multi-timeframe • Pro UI |
-| **⚡ BLDC Motor Performance Predictor** | 3-phase applied ML engineering for robotics team. Predicted motor parameters from real sensor logs. Delivered production `.h5` models + scalers. | [![Hugging Face](https://img.shields.io/badge/🤗_Live_Demo-FF9D00)](https://huggingface.co/spaces/kiarash2077/BLDC-Power-Predictor-V.0.1) [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717)](https://github.com/kiarashshayegani/BLDC-Motor-Performance-Prediction) | `TensorFlow` `Scikit-learn` `Pandas` | **Completed** • Real sensor data • Full report |
-| **🏦 Company Bankruptcy Prediction** | Comparative ML study on financial distress. 4 models, imbalanced data handling, business recommendations. | [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717)](https://github.com/kiarashshayegani/companies-bankruptcy-mini.project) | `XGBoost` `Scikit-learn` `TensorFlow` | **Completed** • 4-model comparison |
+### 🧭 Virtual-AHRS
+**Neural Network-Based Attitude & Heading Reference System**
 
-**📌 Project Philosophy:**  
-• Real data (scraped/collaborated)  
-• End-to-end pipeline (data → model → deployment)  
-• Business-first narrative (not just accuracy scores)  
-• Professional versioning (Git tags, releases, changelogs)
+A deep-learning approach to estimating **Yaw, Roll, and Pitch** directly
+from accelerometer, gyroscope, and magnetometer measurements.
 
----
+**Highlights**
+- 3 architecture iterations: Feed-Forward → LSTM → Multi-Branch Feed-Forward
+- Custom `CircularLoss` using sin/cos targets for angular wraparound
+- Sensor-specific branches with a shared neural network trunk
+- **Yaw:** 3.17° MAE · R² = 0.845
+- **Roll:** 2.57° MAE · R² = 0.928
+- **Pitch:** 2.44° MAE · R² = 0.914
+- 91 automated tests with `pytest`
+- Reproducible, config-driven training pipeline
+- TensorFlow → ONNX deployment path
+- Webots robotics simulator integration
+- Gradio demo on Hugging Face
+- MkDocs Material technical documentation
 
-## 🛠️ Technical Toolkit
+🔗 [Repository](https://github.com/KiarashShayegani/Virtual-AHRS)  
+🤗 [Live Demo](https://huggingface.co/spaces/kiarash2077/AHRS-v3.0-lite)
 
-### **Core Stack**
-```
-Data Science · Machine Learning · Data Analytics · End-to-End ML Pipelines · Model Deployment
-```
-
-### **Languages & Libraries**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-### **Deployment & Tools**
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-FF9D00?style=for-the-badge&logo=gradio&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-### **Visualization & Analysis**
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+**Stack:** `Python` `TensorFlow` `scikit-learn` `ONNX` `pytest` `Webots` `Gradio` `MkDocs`
 
 ---
 
-## 💡 My Development Philosophy
+### 🚗 Iran Car Market Intelligence
 
-> **"The best way to learn is by building. The best way to prove it is by shipping."**
+**End-to-end ML pipeline for Iranian automotive market analytics.**
 
-I believe in:
-1. **Real data, real problems** — no Titanic, no Iris datasets.
-2. **End-to-end ownership** — from `git init` to `deployed.app`.
-3. **Iterative public learning** — each project is a chapter, documented via GitHub releases and changelogs.
-4. **Local relevance, global standards** — solving Iranian market challenges with world-class engineering.
+ICMI continuously collects, validates, cleans, and models vehicle listings
+from the Iranian market before serving price estimates and market analytics
+through a Gradio application.
+
+**Highlights**
+- 14 popular Iranian vehicle brands
+- Daily automated scraping and model retraining
+- Self-growing historical dataset
+- Best-of-4 model selection per brand:
+  `CatBoost` · `XGBoost` · `Random Forest` · `MLP`
+- Cross-validation-based model selection
+- Global-model fallback for low-data brands
+- Auditable validation with rejected-row tracking
+- Shamsi/Gregorian calendar normalization
+- GitHub Actions scheduled pipeline
+- Modular scraping → validation → cleaning → training architecture
+- Gradio price-estimation and market-analysis application
+
+🔗 [Repository](https://github.com/KiarashShayegani/Iran-Car-Market-Intelligence)  
+🤗 [Live Demo](https://huggingface.co/spaces/kiarash2077/pride_car_price_estimator)
+
+**Stack:** `Python` `Pandas` `scikit-learn` `CatBoost` `XGBoost`
+`SQLite` `Gradio` `GitHub Actions`
 
 ---
 
-## 📬 Let's Connect
+### 🤖 SRU Academic Assistant
 
-I'm actively seeking **Data Scientist & Data Analyst opportunities** in Iranian tech companies (Snapp, Digikala, Divar, Khodro45, etc.) and remote international teams.
+**Persian-first FAQ + RAG assistant for university regulations.**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kiarash-shayegani/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KiarashShayegani)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kiarash.shayegani.st@gmail.com)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/kiarash2077)
+A modular academic assistant combining deterministic FAQ retrieval with
+LLM-powered Retrieval-Augmented Generation.
 
-**📌 Open to:**  
-Full-time · Internship · Contract · Remote · Tehran
+**Highlights**
+- Dual retrieval modes: FAQ + RAG
+- MiniLM embeddings
+- LanceDB vector search
+- Page-aware retrieval over regulation documents
+- Streaming LLM responses
+- Persian RTL interface
+- Offline retrieval evaluation and golden-question set
+- Reproducible index-building CLI tools
+- Modular Python package architecture
+- Automated testing and documentation
+
+🔗 [Repository](https://github.com/KiarashShayegani/SRU-Academic-Assistant)
+
+**Stack:** `Python` `RAG` `LLMs` `Sentence Transformers`
+`LanceDB` `Streamlit`
 
 ---
+
+### 🎬 ParSent Cinema
+
+**Persian sentiment analysis for movie & series comments.**
+
+An end-to-end Persian NLP project comparing classical deep-learning
+architectures with fine-tuned ParsBERT.
+
+**Results**
+
+| Model | Accuracy | Macro F1 |
+|---|---:|---:|
+| ParsBERT | **73.7%** | **0.704** |
+| TextCNN | 65.1% | 0.619 |
+| BiLSTM | 60.3% | 0.537 |
+
+The project also includes a deliberately difficult evaluation set
+containing sarcasm, irony, dialectal Persian, Latin-script Persian,
+and rhetorical opinions to investigate model robustness.
+
+🔗 [Repository](https://github.com/KiarashShayegani/parSent_Cinema)  
+🤗 [Live Demo](https://huggingface.co/spaces/kiarash2077/parSent_Cinema)
+
+**Stack:** `Python` `PyTorch` `ParsBERT` `TextCNN` `BiLSTM`
+`NLP` `Gradio`
+
+---
+
+### ⚡ BLDC Motor Performance Prediction
+
+**Applied ML for robotics using real-world motor sensor logs.**
+
+A multi-phase collaboration with a robotics engineering team to predict
+BLDC motor current from real time-series sensor data.
+
+**Highlights**
+- Progressive modeling from regression baselines to neural networks
+- Real robotic sensor logs
+- Targeted signal engineering
+- Regularized neural-network architecture
+- RobustScaler-based preprocessing
+- Final model: Dense `128 → 64 → 32 → 1`
+- Typical R² ≈ **0.94**
+- Reusable training/evaluation/prediction pipeline
+- Unit tests and technical documentation
+- Gradio deployment
+
+🔗 [Repository](https://github.com/KiarashShayegani/BLDC-Motor-Performance-Prediction)
+
+**Stack:** `Python` `TensorFlow` `scikit-learn` `Pandas`
+`pytest` `Gradio`
+
+---
+
+## 🛠️ Technical Stack
+
+### Machine Learning & Deep Learning
+
+`Python` · `TensorFlow` · `PyTorch` · `scikit-learn` · `XGBoost`
+`CatBoost` · `Random Forest` · `Transformers` · `ParsBERT`
+
+### NLP / LLM Applications
+
+`NLP` · `Embeddings` · `Sentence Transformers` · `RAG`
+`Vector Search` · `LanceDB` · `LLM Applications`
+
+### Data
+
+`NumPy` · `Pandas` · `SQL` · `MySQL` · `SQLite`
+`Parquet` · Feature Engineering · Data Validation
+
+### Engineering & Deployment
+
+`Git` · `GitHub` · `GitLab` · `Docker` · `Linux`
+`GitHub Actions` · `CI/CD` · `pytest` · `ONNX`
+
+### Applications & Simulation
+
+`Gradio` · `Streamlit` · `Hugging Face`
+`Webots` · `Matplotlib` · `Plotly`
+
+---
+
+## 🧠 Engineering Approach
+
+I care about the part of ML that happens **after the notebook**.
+
+My projects usually follow:
+
+```text
+Raw Data
+   ↓
+Validation & Preprocessing
+   ↓
+Experimentation
+   ↓
+Model Selection
+   ↓
+Evaluation
+   ↓
+Testing
+   ↓
+Deployment
+   ↓
+Documentation & Iteration
